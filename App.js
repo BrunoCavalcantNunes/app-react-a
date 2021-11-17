@@ -1,21 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+
+import Formulario from './components/formulario';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Ola Mundo!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Formulario />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#6a6a6a',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
